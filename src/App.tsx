@@ -1,6 +1,6 @@
 import { Route, Routes, BrowserRouter as Router, } from "react-router-dom"
 import { Layout } from "./components/shared/Layout"
-import { Dashboard } from "./components/Dashboard"
+import { Dashboard } from "./components/dashboard/Dashboard"
 import { Products } from "./components/Products"
 
 function App() {
