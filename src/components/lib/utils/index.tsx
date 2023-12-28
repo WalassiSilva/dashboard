@@ -1,4 +1,4 @@
-export const getOrderStatus = (status) => {
+export const getOrderStatus = (status: string) => {
     switch (status) {
         case "PLACED":
             return (

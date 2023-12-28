@@ -69,8 +69,9 @@ const PopularProducts = () => {
 
                         <div className="ml-4 flex-1">
                             <p className="text-sm text-gray-800">
-                                {product.product_name}
+                                {product.product_name}                               
                             </p>
+                            
                             <span className={`text-sm font-medium ${product.product_stock === 0 ? 'text-orange-600' : 'text-green-500'}`}>{product.product_stock === 0 ? "Out of stock" : product.product_stock + ' in stock'}</span>
                         </div>
 
