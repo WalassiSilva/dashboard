@@ -1,4 +1,3 @@
-import React from "react";
 import { DashboardCard } from "./DashboardCard";
 import { IoBagHandle, IoCart, IoPeople, IoPieChart } from "react-icons/io5";
 
