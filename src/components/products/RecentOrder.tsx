@@ -102,7 +102,6 @@ const RecentOrder = () => {
                                 <td>{order.order_total}</td>
                                 <td>{order.shipment_address}</td>
                                 <td>{getOrderStatus(order.current_order_status)}</td>
-                                {/* <td>{order.current_order_status}</td> */}
                             </tr>
                         ))}
                     </tbody>
